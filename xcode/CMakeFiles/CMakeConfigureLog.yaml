@@ -1,0 +1,1119 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 22.3.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      Computing target dependency graph and provisioning inputs
+      
+      Create build description
+      Build description signature: 56e6fb237120c078876e1a4f66c1f471
+      Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/./XCBuildData/56e6fb237120c078876e1a4f66c1f471-desc.xcbuild
+      
+      warning: Building targets in manual order is deprecated - check "Parallelize build for command-line builds" in the project editor, or set DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING in any of the targets in the current build to suppress this warning
+      CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+      
+      CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/EagerLinkingTBDs
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/EagerLinkingTBDs
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdC' from project 'CompilerIdC')
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent
+      
+      ProcessProductPackagingDER /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          /usr/bin/derq query -f xml -i /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+      
+      CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CMakeCCompilerId.c -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+      
+      Ld /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          /bin/sh -c /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent --timestamp\\=none --generate-entitlement-der /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC
+      
+      RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC
+          builtin-RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC
+      
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      Computing target dependency graph and provisioning inputs
+      
+      Create build description
+      Build description signature: 49a7c0ceb81e0dacd8ff43c32bd5e981
+      Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/./XCBuildData/49a7c0ceb81e0dacd8ff43c32bd5e981-desc.xcbuild
+      
+      warning: Building targets in manual order is deprecated - check "Parallelize build for command-line builds" in the project editor, or set DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING in any of the targets in the current build to suppress this warning
+      CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+      
+      CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/EagerLinkingTBDs
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/EagerLinkingTBDs
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent
+      
+      ProcessProductPackagingDER /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          /usr/bin/derq query -f xml -i /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+      
+      CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+      
+      Ld /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX
+      
+      WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          /bin/sh -c /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent --timestamp\\=none --generate-entitlement-der /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX
+      
+      RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX
+          builtin-RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX
+      
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A"
+      binary: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A
+        
+        Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_390ac -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_390ac -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: 5516f1bd68601fe64ac33e679fe9f196
+        Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/XCBuildData/5516f1bd68601fe64ac33e679fe9f196-desc.xcbuild
+        
+        note: Building targets in dependency order
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs
+        
+        WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList (in target 'cmTC_390ac' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A
+            write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList
+        
+        CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_390ac' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o
+        Apple clang version 14.0.0 (clang-1400.0.29.202)
+        Target: arm64-apple-macos13.1
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/include -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources-normal/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/include"
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac normal (in target 'cmTC_390ac' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_dependency_info.dat -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac
+        Apple clang version 14.0.0 (clang-1400.0.29.202)
+        Target: arm64-apple-macos13.1
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug
+        @(#)PROGRAM:ld  PROJECT:ld64-820.1
+        BUILD 20:07:05 Nov  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib
+        Framework search paths:
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/
+        
+        RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac (in target 'cmTC_390ac' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A
+            builtin-RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_390ac -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_390ac -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [Computing target dependency graph and provisioning inputs]
+        ignore line: []
+        ignore line: [Create build description]
+        ignore line: [Build description signature: 5516f1bd68601fe64ac33e679fe9f196]
+        ignore line: [Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/XCBuildData/5516f1bd68601fe64ac33e679fe9f196-desc.xcbuild]
+        ignore line: []
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList (in target 'cmTC_390ac' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A]
+        ignore line: [    write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList]
+        ignore line: []
+        ignore line: [CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_390ac' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o]
+        ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+        ignore line: [Target: arm64-apple-macos13.1]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/include -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources-normal/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac normal (in target 'cmTC_390ac' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_dependency_info.dat -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac]
+        ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+        ignore line: [Target: arm64-apple-macos13.1]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.1.0] ==> ignore
+          arg [13.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug/cmTC_390ac] ==> ignore
+          arg [-L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug] ==> dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug]
+          arg [-filelist] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o] ==> obj [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_dependency_info.dat] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug] ==> ignore
+        Library search paths: [;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+        Framework search paths: [;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug], skipping non-system directory
+        collapse library dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs], skipping non-system directory
+        collapse library dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+        collapse framework dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/EagerLinkingTBDs], skipping non-system directory
+        collapse framework dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-EdYr6A/build/cmTC_390ac.build/Debug/Objects-normal/arm64/cmTC_390ac_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx"
+      binary: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx
+        
+        Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ee6d6 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ee6d6 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: d5d7333017c92aeae4d720291befd84b
+        Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/XCBuildData/d5d7333017c92aeae4d720291befd84b-desc.xcbuild
+        
+        note: Building targets in dependency order
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs
+        
+        CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ee6d6' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o
+        Apple clang version 14.0.0 (clang-1400.0.29.202)
+        Target: arm64-apple-macos13.1
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/include -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources-normal/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/include"
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList (in target 'cmTC_ee6d6' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx
+            write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList
+        
+        Ld /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6 normal (in target 'cmTC_ee6d6' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_dependency_info.dat -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6
+        Apple clang version 14.0.0 (clang-1400.0.29.202)
+        Target: arm64-apple-macos13.1
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6 -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug
+        @(#)PROGRAM:ld  PROJECT:ld64-820.1
+        BUILD 20:07:05 Nov  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib
+        Framework search paths:
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs
+        	/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/
+        
+        RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6 (in target 'cmTC_ee6d6' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx
+            builtin-RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ee6d6 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ee6d6 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [Computing target dependency graph and provisioning inputs]
+        ignore line: []
+        ignore line: [Create build description]
+        ignore line: [Build description signature: d5d7333017c92aeae4d720291befd84b]
+        ignore line: [Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/XCBuildData/d5d7333017c92aeae4d720291befd84b-desc.xcbuild]
+        ignore line: []
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs]
+        ignore line: []
+        ignore line: [CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ee6d6' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+        ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+        ignore line: [Target: arm64-apple-macos13.1]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/include -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources-normal/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources/arm64 -I /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList (in target 'cmTC_ee6d6' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx]
+        ignore line: [    write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList]
+        ignore line: []
+        ignore line: [Ld /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6 normal (in target 'cmTC_ee6d6' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_dependency_info.dat -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6]
+        ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+        ignore line: [Target: arm64-apple-macos13.1]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6 -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6 -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6 -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList -object_path_lto /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.1.0] ==> ignore
+          arg [13.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug/cmTC_ee6d6] ==> ignore
+          arg [-L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug] ==> dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug]
+          arg [-filelist] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o] ==> obj [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_dependency_info.dat] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug] ==> ignore
+        Library search paths: [;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+        Framework search paths: [;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs;/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug], skipping non-system directory
+        collapse library dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs], skipping non-system directory
+        collapse library dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+        collapse framework dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/EagerLinkingTBDs], skipping non-system directory
+        collapse framework dir [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug] ==> [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: [/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-kqU2Sx/build/cmTC_ee6d6.build/Debug/Objects-normal/arm64/cmTC_ee6d6_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CheckCXXSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "CGL/find_avx.cmake:19 (check_cxx_source_runs)"
+      - "CGL/CMakeLists.txt:37 (CHECK_FOR_AVX)"
+    checks:
+      - "Performing Test HAVE_AVX_EXTENSIONS"
+    directories:
+      source: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6"
+      binary: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk"
+    buildResult:
+      variable: "HAVE_AVX_EXTENSIONS_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6
+        
+        Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9682e -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9682e -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: 4360a55796b6c5ae1a979dca86dc82d8
+        Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/XCBuildData/4360a55796b6c5ae1a979dca86dc82d8-desc.xcbuild
+        
+        note: Building targets in dependency order
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/Debug
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/Debug
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/EagerLinkingTBDs
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/EagerLinkingTBDs
+        
+        CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/Objects-normal/arm64/src.o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_9682e' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -DHAVE_AVX_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/Debug/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/Debug -mavx -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/Objects-normal/arm64/src.dia -c /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/src.cxx -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/Objects-normal/arm64/src.o
+        clang: warning: argument unused during compilation: '-mavx' [-Wunused-command-line-argument]
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/src.cxx:2:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+        #error "This header is only meant to be used on x86 and x64 architecture"
+         ^
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/src.cxx:2:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:15:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
+          __asm__ ("hreset $0" :: "a"(__eax));
+                                  ^
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/src.cxx:2:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:25:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:33:10: error: use of undeclared identifier '__builtin_ia32_crc32qi'
+          return __builtin_ia32_crc32qi(__C, __D);
+                 ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:53:10: error: use of undeclared identifier '__builtin_ia32_crc32hi'; did you mean '__builtin_arm_crc32h'?
+          return __builtin_ia32_crc32hi(__C, __D);
+                 ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:53:10: note: '__builtin_arm_crc32h' declared here
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:73:10: error: use of undeclared identifier '__builtin_ia32_crc32si'
+          return __builtin_ia32_crc32si(__C, __D);
+                 ^
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/src.cxx:2:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:21:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+        #error "This header is only meant to be used on x86 and x64 architecture"
+         ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:37:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+            __builtin_ia32_emms();
+            ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:37:5: note: '__builtin_isless' declared here
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:37:25: error: too few arguments to function call, expected 2, have 0
+            __builtin_ia32_emms();
+            ~~~~~~~~~~~~~~~~~~~~^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:54:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+            return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:71:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+            return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+                   ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:133:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+            return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:163:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+            return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:193:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+            return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:220:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+            return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:243:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+            return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:264:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+            return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:291:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+            return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:314:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+            return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:335:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+            return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                          ^
+        fatal error: too many errors emitted, stopping now [-ferror-limit=]
+        20 errors generated.
+        
+        WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/Objects-normal/arm64/cmTC_9682e.LinkFileList (in target 'cmTC_9682e' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6
+            write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/Objects-normal/arm64/cmTC_9682e.LinkFileList
+        
+        ** BUILD FAILED **
+        
+        
+        The following build commands failed:
+        	CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/build/cmTC_9682e.build/Debug/Objects-normal/arm64/src.o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-AsnxX6/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_9682e' from project 'CMAKE_TRY_COMPILE')
+        (1 failure)
+        
+      exitCode: 65
+    runResult:
+      variable: "HAVE_AVX_EXTENSIONS_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CheckCXXSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "CGL/find_avx.cmake:50 (check_cxx_source_runs)"
+      - "CGL/CMakeLists.txt:37 (CHECK_FOR_AVX)"
+    checks:
+      - "Performing Test HAVE_AVX2_EXTENSIONS"
+    directories:
+      source: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6"
+      binary: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk"
+    buildResult:
+      variable: "HAVE_AVX2_EXTENSIONS_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6
+        
+        Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_1f8fe -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_1f8fe -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: 724b87a4ba2aec977159739aa56f4986
+        Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/XCBuildData/724b87a4ba2aec977159739aa56f4986-desc.xcbuild
+        
+        note: Building targets in dependency order
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/Debug
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/Debug
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/EagerLinkingTBDs
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/EagerLinkingTBDs
+        
+        WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/Objects-normal/arm64/cmTC_1f8fe.LinkFileList (in target 'cmTC_1f8fe' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6
+            write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/Objects-normal/arm64/cmTC_1f8fe.LinkFileList
+        
+        CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/Objects-normal/arm64/src.o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_1f8fe' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -DHAVE_AVX2_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/Debug/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/Debug -mavx2 -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/Objects-normal/arm64/src.dia -c /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/src.cxx -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/Objects-normal/arm64/src.o
+        clang: warning: argument unused during compilation: '-mavx2' [-Wunused-command-line-argument]
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/src.cxx:2:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+        #error "This header is only meant to be used on x86 and x64 architecture"
+         ^
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/src.cxx:2:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:15:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
+          __asm__ ("hreset $0" :: "a"(__eax));
+                                  ^
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/src.cxx:2:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:25:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:33:10: error: use of undeclared identifier '__builtin_ia32_crc32qi'
+          return __builtin_ia32_crc32qi(__C, __D);
+                 ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:53:10: error: use of undeclared identifier '__builtin_ia32_crc32hi'; did you mean '__builtin_arm_crc32h'?
+          return __builtin_ia32_crc32hi(__C, __D);
+                 ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:53:10: note: '__builtin_arm_crc32h' declared here
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/crc32intrin.h:73:10: error: use of undeclared identifier '__builtin_ia32_crc32si'
+          return __builtin_ia32_crc32si(__C, __D);
+                 ^
+        In file included from /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/src.cxx:2:
+        In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:21:
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+        #error "This header is only meant to be used on x86 and x64 architecture"
+         ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:37:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+            __builtin_ia32_emms();
+            ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:37:5: note: '__builtin_isless' declared here
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:37:25: error: too few arguments to function call, expected 2, have 0
+            __builtin_ia32_emms();
+            ~~~~~~~~~~~~~~~~~~~~^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:54:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+            return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:71:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+            return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+                   ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:133:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+            return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:163:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+            return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:193:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+            return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:220:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+            return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:243:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+            return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:264:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+            return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:291:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+            return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:314:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+            return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:335:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+            return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                          ^
+        fatal error: too many errors emitted, stopping now [-ferror-limit=]
+        20 errors generated.
+        
+        ** BUILD FAILED **
+        
+        
+        The following build commands failed:
+        	CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/build/cmTC_1f8fe.build/Debug/Objects-normal/arm64/src.o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-jz3Zb6/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_1f8fe' from project 'CMAKE_TRY_COMPILE')
+        (1 failure)
+        
+      exitCode: 65
+    runResult:
+      variable: "HAVE_AVX2_EXTENSIONS_EXITCODE"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/Cellar/cmake/3.26.1/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CGL/CMakeLists.txt:97 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU"
+      binary: "/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fPIC"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU
+        
+        Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ce4b2 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ce4b2 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: c4b49c0497a63d04556052dbe21bb2e0
+        Build description path: /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/XCBuildData/c4b49c0497a63d04556052dbe21bb2e0-desc.xcbuild
+        
+        note: Building targets in dependency order
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build
+        
+        CreateBuildDirectory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/EagerLinkingTBDs
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/EagerLinkingTBDs
+        
+        WriteAuxiliaryFile /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/cmTC_ce4b2.LinkFileList (in target 'cmTC_ce4b2' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU
+            write-file /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/cmTC_ce4b2.LinkFileList
+        
+        CompileC /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/src.o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/src.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ce4b2' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug/include -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/DerivedSources-normal/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/DerivedSources/arm64 -I/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/DerivedSources -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug -fPIC -mavx2 -MMD -MT dependencies -MF /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/src.dia -c /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/src.c -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/src.o
+        clang: warning: argument unused during compilation: '-mavx2' [-Wunused-command-line-argument]
+        
+        Ld /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug/cmTC_ce4b2 normal (in target 'cmTC_ce4b2' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/EagerLinkingTBDs -L/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/EagerLinkingTBDs -F/Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug -filelist /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/cmTC_ce4b2.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/cmTC_ce4b2_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/build/cmTC_ce4b2.build/Debug/Objects-normal/arm64/cmTC_ce4b2_dependency_info.dat -o /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug/cmTC_ce4b2
+        
+        RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug/cmTC_ce4b2 (in target 'cmTC_ce4b2' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU
+            builtin-RegisterExecutionPolicyException /Users/cuiboy/Desktop/code/classes/cs184/p3-2-pathtracer-sp23-cuiboy/xcode/CMakeFiles/CMakeScratch/TryCompile-VyGWrU/Debug/cmTC_ce4b2
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+...

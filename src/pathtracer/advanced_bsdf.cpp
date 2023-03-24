@@ -14,142 +14,206 @@ namespace CGL {
 
 // Mirror BSDF //
 
-    Vector3D MirrorBSDF::f(const Vector3D wo, const Vector3D wi) {
-        return Vector3D();
-    }
+Vector3D MirrorBSDF::f(const Vector3D wo, const Vector3D wi) {
+    return Vector3D();
+}
 
-    Vector3D MirrorBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
+Vector3D MirrorBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
+    
+    // TODO Project 3-2: Part 1
+    // Implement MirrorBSDF
+    *pdf = 1;
+    reflect(wo, wi);
+    return reflectance / abs_cos_theta(*wi);
+}
 
-        // TODO Project 3-2: Part 1
-        // Implement MirrorBSDF
-        return Vector3D();
-    }
-
-    void MirrorBSDF::render_debugger_node()
+void MirrorBSDF::render_debugger_node()
+{
+    if (ImGui::TreeNode(this, "Mirror BSDF"))
     {
-        if (ImGui::TreeNode(this, "Mirror BSDF"))
-        {
-            DragDouble3("Reflectance", &reflectance[0], 0.005);
-            ImGui::TreePop();
-        }
+        DragDouble3("Reflectance", &reflectance[0], 0.005);
+        ImGui::TreePop();
     }
+}
 
 // Microfacet BSDF //
 
-    double MicrofacetBSDF::G(const Vector3D wo, const Vector3D wi) {
-        return 1.0 / (1.0 + Lambda(wi) + Lambda(wo));
-    }
+double MicrofacetBSDF::G(const Vector3D wo, const Vector3D wi) {
+    return 1.0 / (1.0 + Lambda(wi) + Lambda(wo));
+}
 
-    double MicrofacetBSDF::D(const Vector3D h) {
-        // TODO Project 3-2: Part 2
-        // Compute Beckmann normal distribution function (NDF) here.
-        // You will need the roughness alpha.
-        return 1.0;
-    }
+double MicrofacetBSDF::D(const Vector3D h) {
+    // TODO Project 3-2: Part 2
+    // Compute Beckmann normal distribution function (NDF) here.
+    // You will need the roughness alpha.
+    return 1.0;
+}
 
-    Vector3D MicrofacetBSDF::F(const Vector3D wi) {
-        // TODO Project 3-2: Part 2
-        // Compute Fresnel term for reflection on dielectric-conductor interface.
-        // You will need both eta and etaK, both of which are Vector3D.
+Vector3D MicrofacetBSDF::F(const Vector3D wi) {
+    // TODO Project 3-2: Part 2
+    // Compute Fresnel term for reflection on dielectric-conductor interface.
+    // You will need both eta and etaK, both of which are Vector3D.
+    
+    return Vector3D();
+}
 
-        return Vector3D();
-    }
+Vector3D MicrofacetBSDF::f(const Vector3D wo, const Vector3D wi) {
+    // TODO Project 3-2: Part 2
+    // Implement microfacet model here.
+    
+    return Vector3D();
+}
 
-    Vector3D MicrofacetBSDF::f(const Vector3D wo, const Vector3D wi) {
-        // TODO Project 3-2: Part 2
-        // Implement microfacet model here.
+Vector3D MicrofacetBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
+    // TODO Project 3-2: Part 2
+    // *Importance* sample Beckmann normal distribution function (NDF) here.
+    // Note: You should fill in the sampled direction *wi and the corresponding *pdf,
+    //       and return the sampled BRDF value.
+    
+    *wi = cosineHemisphereSampler.get_sample(pdf);
+    return MicrofacetBSDF::f(wo, *wi);
+}
 
-        return Vector3D();
-    }
-
-    Vector3D MicrofacetBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
-        // TODO Project 3-2: Part 2
-        // *Importance* sample Beckmann normal distribution function (NDF) here.
-        // Note: You should fill in the sampled direction *wi and the corresponding *pdf,
-        //       and return the sampled BRDF value.
-
-        *wi = cosineHemisphereSampler.get_sample(pdf);
-        return MicrofacetBSDF::f(wo, *wi);
-    }
-
-    void MicrofacetBSDF::render_debugger_node()
+void MicrofacetBSDF::render_debugger_node()
+{
+    if (ImGui::TreeNode(this, "Micofacet BSDF"))
     {
-        if (ImGui::TreeNode(this, "Micofacet BSDF"))
-        {
-            DragDouble3("eta", &eta[0], 0.005);
-            DragDouble3("K", &k[0], 0.005);
-            DragDouble("alpha", &alpha, 0.005);
-            ImGui::TreePop();
-        }
+        DragDouble3("eta", &eta[0], 0.005);
+        DragDouble3("K", &k[0], 0.005);
+        DragDouble("alpha", &alpha, 0.005);
+        ImGui::TreePop();
     }
+}
 
 // Refraction BSDF //
 
-    Vector3D RefractionBSDF::f(const Vector3D wo, const Vector3D wi) {
-        return Vector3D();
-    }
+Vector3D RefractionBSDF::f(const Vector3D wo, const Vector3D wi) {
+    return Vector3D();
+}
 
-    Vector3D RefractionBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
-        // TODO Project 3-2: Part 1
-        // Implement RefractionBSDF
-        return Vector3D();
+Vector3D RefractionBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
+    // TODO Project 3-2: Part 1
+    // Implement RefractionBSDF
+    *pdf = 1;
+    double eta;
+    if (wo.z >= 0) {
+        eta = 1.0 / ior;
     }
+    if (wo.z < 0) {
+        eta = ior;
+    }
+    bool res = refract(wo, wi, ior);
+    return res ? transmittance / abs_cos_theta(*wi) / pow(eta, 2) : Vector3D();
+}
 
-    void RefractionBSDF::render_debugger_node()
+void RefractionBSDF::render_debugger_node()
+{
+    if (ImGui::TreeNode(this, "Refraction BSDF"))
     {
-        if (ImGui::TreeNode(this, "Refraction BSDF"))
-        {
-            DragDouble3("Transmittance", &transmittance[0], 0.005);
-            DragDouble("ior", &ior, 0.005);
-            ImGui::TreePop();
-        }
+        DragDouble3("Transmittance", &transmittance[0], 0.005);
+        DragDouble("ior", &ior, 0.005);
+        ImGui::TreePop();
     }
+}
 
 // Glass BSDF //
 
-    Vector3D GlassBSDF::f(const Vector3D wo, const Vector3D wi) {
-        return Vector3D();
-    }
+Vector3D GlassBSDF::f(const Vector3D wo, const Vector3D wi) {
+    return Vector3D();
+}
 
-    Vector3D GlassBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
-
-        // TODO Project 3-2: Part 1
-        // Compute Fresnel coefficient and either reflect or refract based on it.
-
-        // compute Fresnel coefficient and use it as the probability of reflection
-        // - Fundamentals of Computer Graphics page 305
-        return Vector3D();
-    }
-
-    void GlassBSDF::render_debugger_node()
-    {
-        if (ImGui::TreeNode(this, "Refraction BSDF"))
-        {
-            DragDouble3("Reflectance", &reflectance[0], 0.005);
-            DragDouble3("Transmittance", &transmittance[0], 0.005);
-            DragDouble("ior", &ior, 0.005);
-            ImGui::TreePop();
+Vector3D GlassBSDF::sample_f(const Vector3D wo, Vector3D* wi, double* pdf) {
+    
+    // TODO Project 3-2: Part 1
+    // Compute Fresnel coefficient and either reflect or refract based on it.
+    
+    // compute Fresnel coefficient and use it as the probability of reflection
+    // - Fundamentals of Computer Graphics page 305
+    if (!refract(wo, wi, ior)) {
+        reflect(wo, wi);
+        *pdf = 1.0;
+        return reflectance / abs_cos_theta(*wi);
+    } else {
+        float R_o = pow(((1.0 - ior) / (1.0 + ior)), 2);
+        float R = R_o + (1.0 - R_o) * pow((1.0 - abs_cos_theta(wo)), 5);
+        if (coin_flip(R)) {
+            reflect(wo, wi);
+            *pdf = R;
+            return R * reflectance / abs_cos_theta(*wi);
+        } else {
+            refract(wo, wi, ior);
+            *pdf = 1.0 - R;
+            float eta;
+            if (wo.z >= 0) {
+                eta = 1.0 / ior;
+            }
+            if (wo.z < 0) {
+                eta = ior;
+            }
+            return (1.0 - R) * transmittance / abs_cos_theta(*wi) / pow(eta, 2);
         }
     }
+    return Vector3D();
+}
 
-    void BSDF::reflect(const Vector3D wo, Vector3D* wi) {
-
-        // TODO Project 3-2: Part 1
-        // Implement reflection of wo about normal (0,0,1) and store result in wi.
-
-
+void GlassBSDF::render_debugger_node()
+{
+    if (ImGui::TreeNode(this, "Refraction BSDF"))
+    {
+        DragDouble3("Reflectance", &reflectance[0], 0.005);
+        DragDouble3("Transmittance", &transmittance[0], 0.005);
+        DragDouble("ior", &ior, 0.005);
+        ImGui::TreePop();
     }
+}
 
-    bool BSDF::refract(const Vector3D wo, Vector3D* wi, double ior) {
+void BSDF::reflect(const Vector3D wo, Vector3D* wi) {
+    
+    // TODO Project 3-2: Part 1
+    // Implement reflection of wo about normal (0,0,1)
+    *wi = -wo + 2 * wo.z * Vector3D(0,0,1);
+}
 
-        // TODO Project 3-2: Part 1
-        // Use Snell's Law to refract wo surface and store result ray in wi.
-        // Return false if refraction does not occur due to total internal reflection
-        // and true otherwise. When dot(wo,n) is positive, then wo corresponds to a
-        // ray entering the surface through vacuum.
-
-        return true;
-
+bool BSDF::refract(const Vector3D wo, Vector3D* wi, double ior) {
+    
+    // TODO Project 3-2: Part 1
+    // Use Snell's Law to refract wo surface and store result ray in wi.
+    // Return false if refraction does not occur due to total internal reflection
+    // and true otherwise. When dot(wo,n) is positive, then wo corresponds to a
+    // ray entering the surface through vacuum.
+    float eta;
+    float wi_x;
+    float wi_y;
+    float wi_z;
+    float insde;
+    // if (wo.z > 0) {
+    if (wo.z >= 0) {
+        eta = 1.0 / ior;
+        insde = 1.0 - pow(eta, 2) * (1.0 - pow(wo.z, 2));
+        if (insde < 0) {
+            return false;
+        }
+        wi_z = -sqrt(insde);
     }
+    // ray exist surface
+    if (wo.z < 0) {
+        eta = ior;
+        insde = 1.0 - pow(eta, 2) * (1.0 - pow(wo.z, 2));
+        if (insde < 0) {
+            return false;
+        }
+        wi_z = sqrt(insde);
+    }
+    
+    if ((1.0 - pow(eta, 2) * (1.0 - pow(wo.z, 2))) < 0) {
+        return false;
+    }
+    wi_x = -eta * wo.x;
+    wi_y = -eta * wo.y;
+    *wi = Vector3D(wi_x, wi_y, wi_z);
+    
+    return true;
+    
+}
 
 } // namespace CGL
